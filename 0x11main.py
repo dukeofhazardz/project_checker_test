@@ -37,13 +37,13 @@ elif choice == "2":
 
 elif choice == "3":
     if cart:
-        print("\nYour cart contains:")
+        print("Your cart contains:")
         print(cart)
     else:
         print("Your cart is empty.")
 
 elif choice == "4":
-    print("\nThank you for shopping! You bought:")
+    print("Thank you for shopping! You bought:")
     if cart:
         print(cart)
     else:
